@@ -5,8 +5,8 @@
   flex-wrap: wrap;
   border:1px solid black;
   margin: 0 auto;
-  justify-content: space-evenly;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items:flex-start;
 }
 .album{
   border: 1px solid black;
@@ -15,7 +15,9 @@
   align-items: center;
   margin: 1%;
   padding: 1% 0;
-  flex:1 0 400px;
+  flex:1 1 400px;
+
+  max-width: 500px;
 }
 .album-jacket{
   width:30%;
