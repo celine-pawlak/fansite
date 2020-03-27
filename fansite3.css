@@ -188,7 +188,7 @@ nav{
   margin: 0;
 }
 .body-newsletter{
-  background-image: url('images/newsletter-background.jpg');
+  background-image: url('ressources/newsletter-background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
