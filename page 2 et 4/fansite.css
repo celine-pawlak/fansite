@@ -49,19 +49,60 @@ main{
     width:100%;
 }
 
-.containervideo{
-    position: relative;
-    width: 50%;    
+/*CONCERTS*/
+
+.lignevid{
+    display:flex;
+    flex-direction: row; 
+    margin-top:5%;
 }
 
-.container:hover .image {
+.lignevid video{
+    border:5px solid white;
+    width:90%;
+}
+
+.containervideo{
+    position: relative;
+    width: 50%;
+   
+}
+
+.containervideo:hover .image {
           opacity: 0.3;
         }
 
-.container:hover .middle {
+.containervideo:hover .middle {
           opacity: 1;
         }
 
+.text {
+    background-color: #e60073;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+        }
+
+.image {
+          opacity: 1;
+          display: block;
+          width: 100%;
+          height: auto;
+          transition: .5s ease;
+          backface-visibility: hidden;
+        }
+
+.middle {
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+        }
 
 /*PAGE 4*/
 
