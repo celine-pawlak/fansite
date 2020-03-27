@@ -41,6 +41,7 @@
 }
 
 /* FORMULAIRES */
+
 .html-newsletter, .body-newsletter{
   height: 100%;
   width: 100%;
@@ -55,8 +56,49 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  color:white;
 }
-.form-newsletter{
-
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 50%;
+  min-height: 50%;
+  padding: 1%;
+}
+.test{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.textfield{
+  text-align: center;
+  color:white;
+}
+.button-text{
+  margin:2%;
+  font-weight: bold;
+  background-color: #630037;
+  color:white;
+  border: none;
+  height: 60px;
+}
+.test input{
+  flex:1 0 auto;
+  padding: 1%;
+  margin: 2%;
+  background: none;
+  border:2px solid white;
+  height: 50px;
+}
+::placeholder{
+  color:white;
+  text-align: center;
+}
+label{
+  display: none;
+}
+h2{
+  text-align: center;
 }

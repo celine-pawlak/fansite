@@ -6,19 +6,16 @@
     <link rel="stylesheet" href="fansite3.css">
   </head>
   <body class="body-newsletter">
-    <div class="form-newsletter">
-      <h2>Sign up to get the latest Muse news !</h2>
-      <form class="newsletter" action="fansite.html" method="post">
-        <div class="champ">
-          <label for="nom"></label>
-          <input id="nom" type="text" name="name" placeholder="Name" required>
-          <label for="email"></label>
-          <input id="email" type="email" name="email" placeholder="Email Adress" required>
-        </div>
-        <div class="champ-button">
-          <button type="submit">Sign up !</button>
-        </div>
-      </form>
-    </div>
+    <form class="newsletter" action="fansite.html" method="post">
+      <h2>SIGN UP TO GET THE LATEST MUSE NEWS !</h2>
+      <div class="test">
+        <label for="nom"></label>
+        <input id="nom" class="textfield" type="text" name="name" placeholder="NAME" required pattern=.{2,}>
+        <label for="email"></label>
+        <input id="email" class="textfield" type="email" name="email" placeholder="EMAIL ADDRESS" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+      </div>
+      <button class="button-text" type="submit">SIGN UP !</button>
+    </form>
+
   </body>
 </html>
