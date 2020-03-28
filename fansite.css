@@ -129,13 +129,13 @@ nav{
 }
 
 /* HTML AND BODIES */
-html, .body-tour, .body-galleries, .body-albums{
+html, .body-tour, .body-galleries, .body-albums,.body-musefansite{
   margin: 0;
   padding: 0;
   height: auto;
 }
 
-.body-tour, .body-galleries, .body-albums{
+.body-tour, .body-galleries, .body-albums, .body-musefansite{
   display:flex;
   flex-direction: column;
   background:black;
@@ -163,6 +163,46 @@ main{
   flex-direction: column;
   width:auto;
 } /*A VOIR POUR ENLEVER */
+
+/*PAGE 1*/
+.news{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F303A;
+    margin-right:10%;
+    margin-left:10%;
+    margin-bottom: 5%;
+    padding:2%;
+    font-family: 'Kanit', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    color: white;
+}
+
+.container1{
+    display: flex;
+    width:auto;
+    color: white;
+}
+
+.article{
+    border: 1px solid white;
+    margin: 5%;
+    padding:2%;
+}
+
+.article a{
+    text-decoration: none;
+    color:white;
+}
+
+.article a:hover{
+    color:hotpink;
+}
 
 /*PAGE 2 CONCERTS*/
 
