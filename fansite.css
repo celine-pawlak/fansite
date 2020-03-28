@@ -248,9 +248,11 @@ main{
   border:1px solid black;
   margin: 0 auto;
   justify-content: center;
+  color: #f764ac;
+  font-family: 'Kanit', sans-serif;
 }
 .album{
-  border: 1px solid black;
+  border: 3px solid #161616;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -261,9 +263,19 @@ main{
   min-height: 800px;
   max-width: 400px;
 }
+.album ol li a{
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+.album ol li a:hover{
+  background-color: rgba(247, 100, 272, 0.3);
+}
 .album-jacket{
   width:50%;
   height:auto;
+  border: 5px solid white;
 }
 .logo-music{
   width: 18%;
@@ -274,6 +286,10 @@ main{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: white;
+  padding: 0.5rem 0;
+  margin: 0 0.5rem;
+  border-radius: 10px;
 }
 .logo-music img{
   width: 100%;
@@ -287,7 +303,6 @@ main{
   margin-left:10%;
   margin-bottom:10%;
 }
-
 .focus{
   display:flex;
   flex-direction: row;
@@ -555,7 +570,7 @@ h1{
 h2{
   text-align: center;
   font-family: 'Kanit', sans-serif;
-  font-size: 200%;
+  font-size: 180%;
 }
 h3{
   font-family: 'Kanit', sans-serif;
