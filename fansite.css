@@ -458,7 +458,6 @@ label{
 
 footer{
   background-color:#263E48;
-  height:250px;
   width:auto;
   display: flex;
   flex-direction: row;
@@ -473,16 +472,13 @@ footer{
 .final{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   max-width:1500px;
   margin: 0 auto;
 }
 .logo{
-  width:25%;
-}
-.logo img {
-  width:80%;
+  margin: 2%;
 }
 footer p{
   border-top:solid 10px;
@@ -492,17 +488,17 @@ footer p{
   text-align: center;
   margin-top: 1%;
   font-family: 'Montserrat', sans-serif;
+  margin:0;
 }
 .fanclub{
   display: flex;
   flex-direction: column;
-  width: 30%;
-  padding-left: 4%;
+  margin: 2%;
 }
-h4{
-  margin-top: 0;
+.fanclub ul{
+  padding: 0;
 }
-footer .fanclub li{
+.fanclub li{
   list-style: none;
   font-family: 'Kanit', sans-serif;
 }
@@ -514,21 +510,35 @@ footer a{
 footer a:hover{
   color: white;
 }
+.RS{
+  margin: 2%;
+}
 .RS ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width:100%;
+  padding: 0;
 }
 .RS img{
   width:50%;
 }
-footer .RS li{
+.RS li{
   list-style: none;
-  display: inline-block;
 }
+.RS li a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width:799px) {
+  .final{
+    flex-direction: column;
+  }
 
+}
 /* TITLES */
 
 h1{
@@ -559,7 +569,10 @@ h3{
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
-
+h4{
+  margin-top: 0;
+  white-space: nowrap;
+}
 @-webkit-keyframes glow {
   from {
     text-shadow : 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
