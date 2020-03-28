@@ -278,7 +278,15 @@ main{
   opacity: 1;
 }
 /* PAGE 3 */
-
+.h3-marges{
+  margin: 2rem auto;
+  width: 50%;
+}
+@media (max-width:799px) {
+  .h3-marges{
+    width: 100%;
+  }
+}
 .albums{
   display: flex;
   flex-direction: row;
@@ -488,15 +496,15 @@ label{
   display: none;
 }
 @media (max-width:799px) {
+  .form-newsletter{
+    flex-wrap: wrap;
+  }
   .champs{
     flex-direction: column;
   }
   .champs input{
-    width:90%;
+    width:100%;
     margin: 1rem auto;
-  }
-  h2{
-    white-space: wrap;
   }
 }
 
@@ -514,6 +522,10 @@ label{
 .beforefooter a{
   margin: 1rem;
   max-width:800px;
+  transition: box-shadow 0.2s ease;
+}
+.beforefooter a:hover{
+  box-shadow: 0 0 50px #ADCAD0;
 }
 .beforefooter p{
   text-align: center;
@@ -534,6 +546,9 @@ label{
   }
   .beforefooter{
     min-height: 200px;
+  }
+  .beforefooter a:hover{
+    box-shadow: 0 0 20px #ADCAD0;
   }
 }
 /*FOOTER*/
@@ -638,7 +653,6 @@ h2{
   text-align: center;
   font-family: 'Kanit', sans-serif;
   font-size: 180%;
-  white-space: nowrap;
 }
 h3{
   font-family: 'Kanit', sans-serif;
