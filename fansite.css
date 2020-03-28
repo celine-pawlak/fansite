@@ -6,6 +6,7 @@ header{
   position: sticky;
   top:0;
   font-family: 'Kanit', sans-serif;
+  border-top:5px solid white;
 }
 header a{
   color:white;
@@ -132,7 +133,9 @@ nav{
     display:flex;
     flex-direction: column;
     background:black;
-    border:5px solid white;
+    border-left:5px solid white;
+    border-right:5px solid white;
+    border-bottom:5px solid white;
     margin:0;
     width:auto;
     padding: 0;
@@ -165,7 +168,7 @@ main{
 
 .galerievid{
     display:flex;
-    flex-direction: column; 
+    flex-direction: column;
     margin-bottom:5%;
     margin-right:5%;
     margin-left:5%;
@@ -174,14 +177,14 @@ main{
 
 .lignevid{
     display:flex;
-    flex-direction: row; 
+    flex-direction: row;
     margin-top:5%;
     margin-left:5%;
 }
 
 .lignevid video{
     border:5px solid white;
-    width:90%; 
+    width:90%;
     height: 315px;
 }
 
@@ -221,7 +224,7 @@ main{
     padding-right: 30px;
     padding-left: 30px;
     text-align: center;
-    
+
 }
 
 .containervideo:hover .overlay {
@@ -484,7 +487,7 @@ footer{
 .logo{
     width:25%;
     margin-top: 1.5%;
-    
+
 }
 
 .logo img {
@@ -511,7 +514,7 @@ footer p{
 
 h4{
    margin-top: 0;
-    
+
 }
 
 footer .fanclub li{
@@ -533,7 +536,7 @@ footer a:hover{
 .RS{
     display: flex;
     justify-content: center;
-    width:35%; 
+    width:35%;
     margin-top: 4%;
 }
 
