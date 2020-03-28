@@ -167,7 +167,6 @@ main{
 .news{
     display: flex;
     flex-direction: column;
-    background-color: #1F303A;
     margin-right:10%;
     margin-left:10%;
     margin-bottom: 5%;
@@ -177,30 +176,37 @@ main{
 
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width:auto;
     color: white;
 }
 
-.container1{
+.art{
     display: flex;
-    width:auto;
-    color: white;
+    justify-content: center;
 }
 
-.article{
+article{
     border: 1px solid white;
-    margin: 5%;
+    border-radius: 30px;
+    margin: 1%;
     padding:2%; 
 }
 
-.article a{
+article a{
     text-decoration: none;
     color:white;
 }
 
-.article a:hover{
+article a:hover{
     color:hotpink;
+}
+
+article img{
+    width:30%;
+    display:block;
+    margin-right:;
+    margin-left:35%;
 }
 
 /*PAGE 2 CONCERTS*/
